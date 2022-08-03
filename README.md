@@ -17,8 +17,8 @@ Bearer Key será gerado e impresso na saída do console da aplicação.
 
 
 # Resumo do Projeto NFeReader
-O projeto desenvolvido consiste em um leitor e processador de Nota Fiscal Eletrônica (NFe),
-sendo uma solução de integração nos moldes das soluções conhecidas no mercado.
+O projeto desenvolvido consiste em um leitor e processador de Nota Fiscal Eletrônica (NFe)
+feito na linguagem Java, sendo uma solução de integração nos moldes das soluções conhecidas no mercado.
 Há 5 componentes principais: Sender, Integrador, Enfileirador, Broker e Receiver.
 Cada componente é descrito abaixo:
 
