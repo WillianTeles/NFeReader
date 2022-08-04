@@ -13,7 +13,7 @@ import java.time.format.DateTimeFormatter;
 public class EscritorTXT {
 
     private final Logger logger = LoggerFactory.getLogger(EscritorTXT.class);
-    private String nomeArquivo = "";
+    private String nomeArquivo;
 
     public <T> String escreve(String mensagem, String tipo, String diretorio) throws IOException {
         LocalDateTime currentDateTime = LocalDateTime.now();
